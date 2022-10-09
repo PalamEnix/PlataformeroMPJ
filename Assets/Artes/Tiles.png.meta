@@ -9524,13 +9524,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_494
+      name: DeathTree_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 416
-        width: 8
-        height: 8
+        x: 27
+        y: 394
+        width: 12
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -9540,27 +9540,6 @@ TextureImporter:
       bones: []
       spriteID: 3c8e8870ff6ec044d86eba88ce00d8ef
       internalID: -492074019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_495
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 416
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92761b19c3b59ad47980959b7582aee0
-      internalID: 159834317
       vertices: []
       indices: 
       edges: []
@@ -9902,48 +9881,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_512
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 408
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b420bb634fc7e194bbf16e980bbf783d
-      internalID: -129386812
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_513
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 408
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36bb570d2c0c0b046be831a8c5e3606a
-      internalID: -1378870633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiles_514
       rect:
         serializedVersion: 2
@@ -10238,48 +10175,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_528
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 400
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 648d36579c65c82449224a3987e8b485
-      internalID: 794452411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_529
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 400
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e449f9a9f8cd03419eb9c3811e679df
-      internalID: 1005096751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiles_530
       rect:
         serializedVersion: 2
@@ -10490,13 +10385,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_540
+      name: DeathTree_1
       rect:
         serializedVersion: 2
-        x: 8
-        y: 392
-        width: 8
-        height: 8
+        x: 9
+        y: 368
+        width: 15
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -10506,69 +10401,6 @@ TextureImporter:
       bones: []
       spriteID: 35f4610a9465c4b4b926959620eb9b62
       internalID: 446900187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_541
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 392
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b69a65f7a4fa5e42880c3eff60a59e7
-      internalID: 468607369
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_542
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 392
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46885163e5de66745be1cc6e0b70421c
-      internalID: -2043424453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_543
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 392
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e992c884d4e85a64e8159196a2a77c35
-      internalID: 1623861863
       vertices: []
       indices: 
       edges: []
@@ -10868,48 +10700,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_558
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 384
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21b677c99e6659f47a0c9e9d8ed99fb3
-      internalID: -1162551832
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_559
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 384
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56d22b338bfc3d14e94116731c9aa3ab
-      internalID: -85847842
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiles_560
       rect:
         serializedVersion: 2
@@ -11199,48 +10989,6 @@ TextureImporter:
       bones: []
       spriteID: dbc37cdda02d58f4fab2f003f5931595
       internalID: -1836144473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_574
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 376
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: caafb9a41566b274f9a8421f5a75e0e1
-      internalID: -345348421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_575
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 376
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 10045a6e88a34d34cba9c4785ee023e7
-      internalID: 47932220
       vertices: []
       indices: 
       edges: []
@@ -11540,48 +11288,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_590
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 368
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f8f7c28c7e7db9f4c8224cc8db3161aa
-      internalID: 1360653253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_591
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 368
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ef72f036ac5cd0429b300f4f21fd061
-      internalID: 775017117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Tiles_592
       rect:
         serializedVersion: 2
@@ -11876,34 +11582,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_606
+      name: death_bush
       rect:
         serializedVersion: 2
-        x: 0
-        y: 360
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e611129f8d12ae4d8136aec43ce164a
-      internalID: 1593959201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_607
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 360
-        width: 8
-        height: 8
+        x: 3
+        y: 358
+        width: 11
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -12207,48 +11892,6 @@ TextureImporter:
       bones: []
       spriteID: f5381e5795bb9ad48b2bd6f2676fce31
       internalID: -156083836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_622
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 352
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1d67eb6a40202f48bb9c3017c2a7bf9
-      internalID: 947080158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tiles_623
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 352
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5eb32a988051b4a4fa2bcbadb7128821
-      internalID: 213700745
       vertices: []
       indices: 
       edges: []
@@ -14123,7 +13766,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_713
+      name: death_extra
       rect:
         serializedVersion: 2
         x: 40
@@ -14543,7 +14186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tiles_733
+      name: death_fungus
       rect:
         serializedVersion: 2
         x: 56
@@ -26949,9 +26592,9 @@ TextureImporter:
       Tiles_758: 1679638145
       Tiles_399: 2134126732
       Tiles_452: 1462358031
-      Tiles_540: 446900187
-      Tiles_628: 1391428380
       Tiles_948: -74569000
+      Tiles_628: 1391428380
+      Tiles_1311: -1656479802
       Tiles_98: -1379421979
       Tiles_128: -883587531
       Tiles_580: -231444533
@@ -26960,7 +26603,6 @@ TextureImporter:
       Tiles_362: -575601879
       Tiles_467: -1019303651
       Tiles_84: -309011400
-      Tiles_235: -708175074
       Tiles_1263: -574150185
       Tiles_678: -1405450021
       Tiles_778: 65660455
@@ -27462,6 +27104,7 @@ TextureImporter:
       Tiles_766: -1404614112
       Tiles_737: 647492032
       Tiles_142: 366855530
+      death_extra: 700233426
       Tiles_1219: -947682232
       Tiles_1262: 982469308
       Tiles_97: -1043136997
@@ -27627,6 +27270,7 @@ TextureImporter:
       Tiles_1104: 591944042
       Tiles_192: 701833143
       Tiles_534: -1306493637
+      DeathTree_1: 446900187
       Tiles_942: 1750977445
       Tiles_608: -840363538
       Tiles_610: -1290760995
@@ -27727,8 +27371,8 @@ TextureImporter:
       Tiles_749: -1733089525
       Tiles_1171: -1548086727
       Tiles_1251: -801877904
+      death_fungus: 61339707
       Tiles_479: 999262739
-      Tiles_607: -1211999921
       Tiles_863: 1172267465
       Tiles_734: 543114170
       Tiles_1084: 1332188554
@@ -27949,7 +27593,6 @@ TextureImporter:
       Tiles_410: -2064601555
       Tiles_685: 309781604
       Tiles_100: -765355164
-      Tiles_713: 700233426
       Tiles_1199: 491268159
       Tiles_1310: -4324461
       Tiles_761: -1503574457
@@ -28042,9 +27685,8 @@ TextureImporter:
       Tiles_19: 1088292836
       Tiles_99: -17675596
       Tiles_335: 1931863007
-      Tiles_494: -492074019
-      Tiles_872: -821249115
       Tiles_355: -1910725131
+      Tiles_872: -821249115
       Tiles_688: -234081760
       Tiles_1165: 967287488
       Tiles_1232: -2007879520
@@ -28075,6 +27717,7 @@ TextureImporter:
       Tiles_153: 16676828
       Tiles_922: 2108656314
       Tiles_1292: -1733770645
+      death_bush: -1211999921
       Tiles_535: -24141002
       Tiles_428: -1080880317
       Tiles_883: -1971277387
@@ -28094,7 +27737,6 @@ TextureImporter:
       Tiles_1066: 1134129884
       Tiles_347: -2136876600
       Tiles_267: -930538865
-      Tiles_733: 61339707
       Tiles_441: -2068915614
       Tiles_404: -1529731435
       Tiles_756: 1594282837
@@ -28231,6 +27873,7 @@ TextureImporter:
       Tiles_199: 2006895953
       Tiles_590: 1360653253
       Tiles_1332: -1939778741
+      DeathTree_0: -492074019
       Tiles_209: -849471527
       Tiles_215: -209582472
       Tiles_601: -1810833610
@@ -28295,7 +27938,7 @@ TextureImporter:
       Tiles_243: -1760517529
       Tiles_1097: 1891441647
       Tiles_328: -1963694822
-      Tiles_1311: -1656479802
+      Tiles_235: -708175074
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
