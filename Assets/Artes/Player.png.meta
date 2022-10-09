@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 6
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -507,19 +507,19 @@ TextureImporter:
       Player_8: 131101062
       Player_10: -1533705009
       Player_27: 498225904
+      Player_32: -704254417
       Player_15: -100227406
       Player_13: 937749753
-      Player_21: 959691916
-      Player_32: -704254417
-      Player_42: -1920455341
-      Player_24: 1742459507
-      Idle2: 2059705466
       Player_43: 789172867
+      Player_42: -1920455341
+      Run4: -1761530257
+      Player_24: 1742459507
+      Player_21: 959691916
       Player_35: -408769
       Player_11: -1998272439
       Player_19: -975775064
       Player_20: 1011742263
-      Run4: -1761530257
+      Idle2: 2059705466
       Player_30: 642854732
       Run7: -740493360
       Player_46: -1650825255
