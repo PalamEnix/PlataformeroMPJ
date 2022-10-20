@@ -11,6 +11,10 @@ public class Enemy : MonoBehaviour
 
     public float knockback = 10f;
 
+    public AudioClip SonidoGolpe;
+
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +30,7 @@ public class Enemy : MonoBehaviour
     public void Hit()
     {
         life -= 1;
+        GetComponent<AudioSource>().Play();
         if (!indestructible && life <= 0)
         {
             Destroy(gameObject);
@@ -37,6 +42,7 @@ public class Enemy : MonoBehaviour
         Player player = collider.GetComponent<Player>();
         if (player != null)
         {
+            GetComponent<AudioSource>().Play();
             player.Hit(knockback, gameObject);
         }
     }

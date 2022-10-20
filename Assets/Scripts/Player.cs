@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -34,6 +35,10 @@ public class Player : MonoBehaviour
     public Vector2 respawnPoint;
 
     private GameObject destinyWarp;
+
+    public AudioClip SonidoSalto;
+
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -94,11 +99,12 @@ public class Player : MonoBehaviour
         respawnPoint = initialPosition;
         if (life < 0)
         {
-            life = 2;
-            for(int i = 0; i < lifesPanel.transform.childCount; i++)
-            {
-                lifesPanel.transform.GetChild(i).gameObject.SetActive(true);
-            }
+            StartCoroutine(retrasoEscena("Lose"));
+            //life = 2;
+            //for(int i = 0; i < lifesPanel.transform.childCount; i++)
+            //{
+            //    lifesPanel.transform.GetChild(i).gameObject.SetActive(true);
+            //}
         } 
     }
 
@@ -132,9 +138,16 @@ public class Player : MonoBehaviour
         isInCooldown = false;
     }
 
+    IEnumerator retrasoEscena(string sceneName)
+    {
+        yield return new WaitForSecondsRealtime(0.5f);
+        SceneManager.LoadScene(sceneName);
+    }
+
     private void Jump()
     {
         rigidBody2D.AddForce(Vector2.up * jumpForce);
+        GetComponent<AudioSource>().Play();
     }
 
     private void DeathOnFall()
