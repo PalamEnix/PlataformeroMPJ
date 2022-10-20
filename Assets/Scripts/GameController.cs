@@ -38,7 +38,10 @@ public class GameController : MonoBehaviour
             {
                 SceneManager.LoadScene("Win");
             }
-            SceneManager.LoadScene("Level" + (level + 1));
+            else
+            {
+                SceneManager.LoadScene("Level" + (level + 1));
+            }
         }
 
         foreach (var checkpoint in checkPoints)
@@ -54,6 +57,7 @@ public class GameController : MonoBehaviour
             Pause();
         }
     }
+  
 
     public void Pause()
     {

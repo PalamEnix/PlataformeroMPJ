@@ -13,9 +13,14 @@ public class Bullet : MonoBehaviour
 
     private Vector2 direction;
 
+    public AudioClip SonidoDisparo;
+
+    private AudioSource audioSource;
+
     // Start is called before the first frame update
     void Start()
     {
+        GetComponent<AudioSource>().Play();
         rigidBody2D = GetComponent<Rigidbody2D>();
         StartCoroutine(BulletTime());
     }
